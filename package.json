@@ -10,7 +10,7 @@
     "changelog": "standard-version",
     "commit": "git add . && npx git-cz"
   },
-  "main": "prompts.js",
+  "main": "./dist/bin.js",
   "dependencies": {},
   "devDependencies": {
     "@tracy-chang/vue-cli-plugin-creatproject": "^0.1.3",
