@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "project-desc",
   "author": "tracy-chang",
+  "bin": {
+    "tracy-cli": "./bin/tracy-cli"
+  },
   "scripts": {
     "changelog": "standard-version",
     "commit": "git add . && npx git-cz"
